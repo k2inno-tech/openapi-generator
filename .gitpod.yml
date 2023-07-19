@@ -38,6 +38,8 @@
 #  file: .gitpod.Dockerfile                # relative path to the Dockerfile from the
 #                                          # root of the project
 
+image: maven:3.6.3-jdk-11-openj9
+
 ## The 'tasks' section defines how Gitpod prepares and builds this project
 ## or how Gitpod can start development servers. With Gitpod, there are three
 ## types of tasks:
